@@ -24,3 +24,5 @@ const isAuthenticate = (req: Request, res: Response, next: NextFunction) => {
     throw new AppError('JWT Token invalid');
   }
 };
+
+export default isAuthenticate;
